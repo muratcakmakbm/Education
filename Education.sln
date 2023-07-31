@@ -17,6 +17,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.ApplicationTests"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{51E7BB6E-20B2-41DF-BEFE-139522728B0E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-DbScripts", "2-DbScripts", "{038FC9BF-6951-4769-A64A-DFBDC0D20FAF}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\Education\scripts\1-CreateDb.sql = ..\..\..\..\..\Education\scripts\1-CreateDb.sql
+		..\..\..\..\..\Education\scripts\2-tb_EducationGroup_Script.sql = ..\..\..\..\..\Education\scripts\2-tb_EducationGroup_Script.sql
+		..\..\..\..\..\Education\scripts\3-tb_Education_Script.sql = ..\..\..\..\..\Education\scripts\3-tb_Education_Script.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Not", "1-Not", "{A7DA4969-28AF-4D1A-A5E5-F5B750D10372}"
+	ProjectSection(SolutionItems) = preProject
+		Not.txt = Not.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Education.Application.EducationGroup;
+using Education.Application.EducationGroup.Commands.SaveEducationGroup;
 using Education.Application.EducationGroup.Tests;
 using Education.ApplicationTests.EducationGroup;
 using Education.Domain;
@@ -7,7 +9,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System.Linq;
 
-namespace Education.Application.EducationGroup.Commands.SaveEducationGroup.Tests
+namespace Education.ApplicationTests.EducationGroup.Commands.SaveEducationGroup
 {
     [TestClass()]
     public class SaveEducationGroupCommandHandlerTests

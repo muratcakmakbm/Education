@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
+using Education.Application;
 using Education.Application.EducationGroup.Queries.GetEducationGroups;
-using Education.ApplicationTests.EducationGroup;
 using Education.Domain;
 using Education.Domain.Entities;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 
-namespace Education.Application.EducationGroup.Tests
+namespace Education.ApplicationTests.EducationGroup
 {
     [TestClass()]
     public class EducationCacheHelperTests
@@ -48,7 +48,7 @@ namespace Education.Application.EducationGroup.Tests
             GetCacheTest();
         }
 
-      
+
 
         [TestMethod()]
         public void GetCacheTest()
