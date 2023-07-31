@@ -1,4 +1,4 @@
--DbScript klasöründeki dosyalarý sýrasýyla çalýþtýrmak gerekiyor.
+1-DbScript klasöründeki dosyalarý sýrasýyla çalýþtýrmak gerekiyor.
   ilk olarak database oluþturma scriptinden sonra 
   yeni oluþan database üzerinden script sayfasý açarak diðerlerini
   çalýþtýrmak gerekyior.
